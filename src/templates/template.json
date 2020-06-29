@@ -1,0 +1,25 @@
+{
+  "zones": [
+    {
+      "zone": 1,
+      "topLeftX": 0,
+      "topLeftY": 0,
+      "width": 960,
+      "height": 717
+    },
+    {
+      "zone": 2,
+      "topLeftX": 960,
+      "topLeftY": 0,
+      "width": 960,
+      "height": 717
+    },
+    {
+      "zone": 3,
+      "topLeftX": 0,
+      "topLeftY": 717,
+      "width": 1920,
+      "height": 363
+    }
+  ]
+}
