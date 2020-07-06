@@ -35,12 +35,9 @@ export default {
   },
   beforeCreate() {
     this.gaugeId = `E${this._uid}`;
-    console.log(this.gaugeId);
   },
-  created() {
-    setTimeout(() => {
-      loadLiquidFillGauge(this.gaugeId, this.capacity);
-    }, 0);
+  mounted() {
+    loadLiquidFillGauge(this.gaugeId, this.capacity);
 
     function liquidFillGaugeDefaultSettings() {
       return {
@@ -64,7 +61,7 @@ export default {
 
     function loadLiquidFillGauge(elementId, value, config) {
       if (config == null) config = liquidFillGaugeDefaultSettings();
-
+      // Using d3 from index.html
       var gauge = d3.select('#' + elementId);
       var radius =
         Math.min(
