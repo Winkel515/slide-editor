@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .zone {
   position: absolute;
   background-color: grey;

@@ -4,22 +4,29 @@
       "zone": 1,
       "topLeftX": 0,
       "topLeftY": 0,
-      "width": 960,
-      "height": 717
+      "width": 1920,
+      "height": 200
     },
     {
       "zone": 2,
-      "topLeftX": 960,
-      "topLeftY": 0,
+      "topLeftX": 0,
+      "topLeftY": 200,
       "width": 960,
-      "height": 717
+      "height": 680
     },
     {
       "zone": 3,
+      "topLeftX": 960,
+      "topLeftY": 200,
+      "width": 960,
+      "height": 680
+    },
+    {
+      "zone": 4,
       "topLeftX": 0,
-      "topLeftY": 717,
+      "topLeftY": 880,
       "width": 1920,
-      "height": 363
+      "height": 200
     }
   ]
 }

@@ -5,9 +5,36 @@
         <h1>widgets</h1>
       </div>
       <div class="widget-list row wrap">
-        <Drag id="A">
-          <h1>A</h1>
-        </Drag>
+        <div class="widget">
+          <Drag>
+            <A />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <B />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <C />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <Footer mode="preview" />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <Header mode="preview" />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <Capacity mode="preview" />
+          </Drag>
+        </div>
       </div>
     </div>
   </div>
@@ -43,7 +70,6 @@ export default {
 .widget {
   width: 150px;
   height: 150px;
-  background-color: gold;
   margin-top: 15px;
 }
 

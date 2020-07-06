@@ -22,6 +22,14 @@ export default {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .center {
   position: absolute;
   top: 50%;

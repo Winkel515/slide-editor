@@ -1,0 +1,33 @@
+{
+  "capacity_title": "Capacité",
+  "flow_title": "Flot d'entrées",
+  "flow_status_suffix_singular": "entrée / minute",
+  "flow_status_suffix_plural": "entrées / minute",
+  "safe": "Vous pouvez entrer",
+  "not_safe": "Veuillez attendre",
+  "footer_link_prefix": "Achaladage en temps-réel sur",
+  "header_text": [
+    "Gardez deux mètres de distance",
+    "Toussez ou éternuez dans votre coude",
+    "Lavez vos mains pendant 20 secondes, avant d'entrer",
+    "Prévoyez vos achats, pour éviter d'oublier quelque chose",
+    "Évitez de toucher ce que vous n'achetez pas"
+  ],
+  "errors": {
+    "no_internet": "Connexion internet inaccessible",
+    "no_master": "Données inaccessible"
+  },
+  "opening": {
+    "business_hours": "Heures d'ouverture",
+    "sunday": "Dimanche",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "quebec_national_day": "Saint-Jean-Baptiste",
+    "canada_day": "Jour du Canada",
+    "closed": "Fermé"
+  }
+}

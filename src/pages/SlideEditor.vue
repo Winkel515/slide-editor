@@ -1,5 +1,5 @@
 <template>
-  <div id="slide-editor">
+  <div id="slide-editor" class="center">
     <div class="row">
       <div id="slide-content">
         <Template></Template>
@@ -17,7 +17,10 @@ export default {
   data() {
     return {};
   },
-  components: { Template, Widgets },
+  components: {
+    Template,
+    Widgets,
+  },
 };
 </script>
 

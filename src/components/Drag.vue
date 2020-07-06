@@ -1,23 +1,28 @@
 <template>
-  <div
-    :id="id"
-    :draggable="true"
-    @dragstart="dragStart"
-    @dragover.stop
-    class="widget"
-  >
+  <div id="drag" :draggable="true" @dragstart="dragStart" class="widget">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['id'],
+  props: {
+    id: String,
+    onDrag: Function,
+  },
   methods: {
     dragStart(e) {
       const { target } = e;
-      e.dataTransfer.setData('card_id', target.id);
+      e.dataTransfer.setData('widget_id', target.children[0].id);
+      if (this.onDrag) this.onDrag();
     },
   },
 };
 </script>
+
+<style scoped>
+#drag {
+  height: 100%;
+  width: 100%;
+}
+</style>

@@ -1,0 +1,33 @@
+{
+  "capacity_title": "Capacity",
+  "flow_title": "Incoming flow",
+  "flow_status_suffix_singular": "entry / minute",
+  "flow_status_suffix_plural": "entries / minute",
+  "safe": "Safe to enter",
+  "not_safe": "Please wait",
+  "footer_link_prefix": "Real-time occupancy available on",
+  "header_text": [
+    "Please keep 2m distance at all times",
+    "Sneeze or cough in your elbow",
+    "Before you enter wash your hands for 20 seconds",
+    "Plan what you need to buy in advance",
+    "Try not to touch anything you won't buy"
+  ],
+  "errors": {
+    "no_internet": "Internet connection cannot be established",
+    "no_master": "Data connection cannot be established"
+  },
+  "opening": {
+    "business_hours": "BUSINESS HOURS",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "quebec_national_day": "Quebec National Day",
+    "canada_day": "Canada Day",
+    "closed": "Closed"
+  }
+}
