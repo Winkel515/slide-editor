@@ -21,13 +21,9 @@ export default {
 </script>
 
 <style scoped>
-.zone {
-  position: absolute;
-  background-color: grey;
-  border: 5px dotted black;
-}
 #template {
   width: 1920px;
   height: 1080px;
+  background-color: gray;
 }
 </style>

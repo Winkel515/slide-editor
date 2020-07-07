@@ -2,6 +2,7 @@
   <div
     class="zone"
     :style="{
+      position: 'absolute',
       top: `${zone.topLeftY}px`,
       left: `${zone.topLeftX}px`,
       width: `${zone.width}px`,

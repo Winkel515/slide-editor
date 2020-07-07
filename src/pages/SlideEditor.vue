@@ -1,5 +1,5 @@
 <template>
-  <div id="slide-editor" class="center">
+  <div id="slide-editor">
     <div class="row">
       <div id="slide-content">
         <Template></Template>
@@ -12,6 +12,7 @@
 <script>
 import Template from '../components/Template.vue';
 import Widgets from '../components/Widgets.vue';
+// import Flow from '../widgets/Flow.vue';
 
 export default {
   data() {
@@ -20,6 +21,7 @@ export default {
   components: {
     Template,
     Widgets,
+    // Flow,
   },
 };
 </script>

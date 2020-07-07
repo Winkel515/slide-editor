@@ -7,21 +7,6 @@
       <div class="widget-list row wrap">
         <div class="widget">
           <Drag>
-            <A />
-          </Drag>
-        </div>
-        <div class="widget">
-          <Drag>
-            <B />
-          </Drag>
-        </div>
-        <div class="widget">
-          <Drag>
-            <C />
-          </Drag>
-        </div>
-        <div class="widget">
-          <Drag>
             <Footer mode="preview" />
           </Drag>
         </div>
@@ -33,6 +18,11 @@
         <div class="widget">
           <Drag>
             <Capacity mode="preview" />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <Flow mode="preview" />
           </Drag>
         </div>
       </div>
