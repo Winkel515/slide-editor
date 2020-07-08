@@ -10,18 +10,16 @@
 </template>
 
 <script>
+/* eslint-disable */
 import Template from '../components/Template.vue';
 import Widgets from '../components/Widgets.vue';
-// import Flow from '../widgets/Flow.vue';
+import Opening from '../widgets/Opening.vue';
 
 export default {
-  data() {
-    return {};
-  },
   components: {
     Template,
     Widgets,
-    // Flow,
+    Opening,
   },
 };
 </script>

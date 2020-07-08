@@ -37,6 +37,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.center-children {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .column {
   display: flex;
   flex-direction: column;

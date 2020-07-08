@@ -25,6 +25,21 @@
             <Flow mode="preview" />
           </Drag>
         </div>
+        <div class="widget">
+          <Drag>
+            <Opening mode="preview" />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <Closed mode="preview" />
+          </Drag>
+        </div>
+        <div class="widget">
+          <Drag>
+            <Open mode="preview" />
+          </Drag>
+        </div>
       </div>
     </div>
   </div>

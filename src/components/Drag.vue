@@ -5,6 +5,7 @@
 </template>
 
 <script>
+// Direct child of Drag must have an ID matching the component name
 export default {
   props: {
     id: String,
